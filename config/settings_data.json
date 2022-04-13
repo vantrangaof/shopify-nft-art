@@ -121,7 +121,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/3d_nft_logo_transparent.png",
-          "logo_width": 90,
+          "logo_width": 50,
           "logo_position": "middle-left",
           "menu": "home-menu",
           "show_line_separator": true,
