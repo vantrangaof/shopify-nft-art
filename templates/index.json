@@ -1,5 +1,12 @@
 {
   "sections": {
+    "16497590461a1990be": {
+      "type": "section-custom-html",
+      "settings": {
+        "title": "",
+        "custom_html": "<div class=\"container\">\n            <div>\n                <div>\n                    <h1>\n                        Create, Sell & Collect Your Own Creative NFT\n                    <\/h1>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n                    <\/p>\n\n                    <div>\n                        <a href=\"#collections\" class=\"btn\">Explore now<\/a>\n                        <a href=\"#banner\" class=\"btn\">Sell NFT<\/a>\n                    <\/div>\n                    <div class=\"row jc-between\">\n                        <div class=\"ta-center\">\n                            <p class=\"size3 bold\">37k+<\/p>\n                            <p class=\"size2 halfwhite\">Artworks<\/p>\n                        <\/div>\n                        <div class=\"ta-center\">\n                            <p class=\"size3 bold\">20k+<\/p>\n                            <p class=\"size2 halfwhite\">Artist<\/p>\n                        <\/div>\n                        <div class=\"ta-center\">\n                            <p class=\"size3 bold\">99k+<\/p>\n                            <p class=\"size2 halfwhite\">Aucations<\/p>\n                        <\/div>\n                    <\/div>\n                <\/div>\n                <div class=\"col6 col12-s spacebottom3-s\">\n                    <img src=\"\/assets\/heroimage.png\" alt=\"\" class=\"img-responsive float\">\n                <\/div>\n            <\/div>\n        <\/div>"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -222,13 +229,6 @@
         "padding_bottom": 52
       }
     },
-    "16497590461a1990be": {
-      "type": "section-custom-html",
-      "settings": {
-        "title": "",
-        "custom_html": "<div> <h1> Test Test <\/h1> <\/div>"
-      }
-    },
     "1649749717bc535e83": {
       "type": "slideshow",
       "blocks": {
@@ -284,6 +284,7 @@
     }
   },
   "order": [
+    "16497590461a1990be",
     "image_banner",
     "rich_text",
     "featured_collection",
@@ -291,7 +292,6 @@
     "video",
     "multicolumn",
     "164974933162c0b9bb",
-    "16497590461a1990be",
     "1649749717bc535e83"
   ]
 }
