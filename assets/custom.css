@@ -56,6 +56,10 @@ header.header--middle-left.page-width.header--has-menu {
   width: 5rem;
 }
 
+.header__menu-item {
+  font-weight: 650;
+}
+
 /* HEADER IMAGE FLOAT*/
 .float {
   -webkit-animation: float 2.5s linear infinite;
@@ -90,5 +94,42 @@ header.header--middle-left.page-width.header--has-menu {
   flex-direction: row;
 }
 .img-responsive {
-  width: 50%;
+  width: 100%;
+  padding: 10rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-section-text {
+  margin-left: 10rem;
+  /* max-width: 100rem; */
+}
+
+@media screen and (max-width: 750px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .hero-section-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 5rem;
+    justify-items: center;
+    background-color: blue;
+    text-align: center;
+    max-width: 41rem;
+  }
+  .hero-section-text > p {
+    font-size: 1.5rem;
+  }
+  .img-responsive {
+    padding: 5rem;
+  }
 }

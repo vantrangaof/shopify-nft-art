@@ -194,7 +194,6 @@
 
 
 
-
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -221,11 +220,26 @@
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
-
+<div class="container">
+            <div class="hero-section">
+                <div class="hero-section-text">
+                    <h1>
+                        Create, Sell & Collect Your Own Creative NFT
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    </div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0633/5981/1813/t/10/assets/heroimage.png?v=1649845673" alt="" class="img-responsive float">
+            </div>
+        </div>
+</div>
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
+      
     </main>
+
 
     {% section 'footer' %}
 
