@@ -1,7 +1,7 @@
 /* Color custom properties */
 
 :root,
-/* .color-background-1 {
+.color-background-1 {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);
   --gradient-background: var(--gradient-base-background-1);
@@ -11,7 +11,7 @@
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-2);
   --gradient-background: var(--gradient-base-background-2);
-} */
+}
 
 .color-inverse {
   --color-foreground: var(--color-base-background-1);
@@ -2634,7 +2634,8 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
+  /* color: rgb(var(--color-foreground)); */
+  /* Trang: Removed the color text for the hover effect in CSS */
   text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
