@@ -167,6 +167,7 @@ header.header--middle-left.page-width.header--has-menu {
 }
 
 /* STATISTICS SECTION */
+
 .statistics-section {
   display: flex;
   flex-direction: row;
@@ -188,6 +189,14 @@ header.header--middle-left.page-width.header--has-menu {
   width: 38rem;
   justify-content: center;
   padding: 20px;
+}
+.statistics-heading {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin: 10rem auto; */
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 .statistics-grid-items {
   background-color: rgba(255, 255, 255, 0.2);

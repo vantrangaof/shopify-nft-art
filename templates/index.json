@@ -11,7 +11,7 @@
       "type": "section-custom-html",
       "settings": {
         "title": "",
-        "custom_html": "<div class=\"statistics-section\"> \n<div class=\"statistics-image\"> \n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5981\/1813\/t\/10\/assets\/statistics_image.png?v=1649930278\">\n<\/div>\n<div class=\"statistics-grid\">\n<div class=\"statistics-grid-items\"><p>84k+<\/br>ARTWORKS<\/p>\n<\/div>\n<div class=\"statistics-grid-items\"><p>20k+<\/br>USERS<\/p>\n<\/div>\n<div class=\"statistics-grid-items\"><p>5k+<\/br>TRANSACTIONS<\/p>\n<\/div>\n<div class=\"statistics-grid-items\"><p>90k+<\/br>AUCATIONS<\/p>\n<\/div>\n<\/div>\n<\/div>"
+        "custom_html": "<div class=\"statistics-section\"> \n<div class=\"statistics-image\"> \n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5981\/1813\/t\/10\/assets\/statistics_image.png?v=1649930278\">\n<\/div>\n <div class=\"statistics-grid\">\n<div class=\"statistics-heading\"><h1>Data That Speaks<\/h1><p>Our numbers speak everything! Check out the statistics over the past year<\/p><\/div><div class=\"statistics-grid-items\"><p>84k+<\/br>ARTWORKS<\/p>\n<\/div>\n<div class=\"statistics-grid-items\"><p>20k+<\/br>USERS<\/p>\n<\/div>\n<div class=\"statistics-grid-items\"><p>5k+<\/br>TRANSACTIONS<\/p>\n<\/div>\n<div class=\"statistics-grid-items\"><p>90k+<\/br>AUCATIONS<\/p>\n<\/div>\n<\/div>\n<\/div>"
       }
     },
     "image_banner": {
