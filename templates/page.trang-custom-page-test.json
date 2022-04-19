@@ -6,9 +6,64 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "165034699012ac0ab1": {
+      "type": "slideshow",
+      "blocks": {
+        "1650346990f2dab839-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ines-blohm-pSpRhRe5zoA-unsplash.jpg",
+            "heading": "It Starts From Here",
+            "heading_size": "h1",
+            "subheading": "Get started easily with us",
+            "button_label": "Check It Out",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1650346990f2dab839-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/milad-fakurian-PGdW_bHDbpI-unsplash.jpg",
+            "heading": "Get The Latest Technology",
+            "heading_size": "h1",
+            "subheading": "Dive into the latest technology with us",
+            "button_label": "Check it out",
+            "link": "shopify:\/\/blogs\/新聞",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1650346990f2dab839-0",
+        "1650346990f2dab839-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165034699012ac0ab1"
   ]
 }
